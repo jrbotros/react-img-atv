@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import PropTypes from 'prop-types'
 
 import styles from './styles'
 
-export default class AtvImg extends Component {
+export default class AtvImg extends PureComponent {
   static propTypes = {
     layers: PropTypes.arrayOf(PropTypes.string).isRequired,
     isStatic: PropTypes.bool,
